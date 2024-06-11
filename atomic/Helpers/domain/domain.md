@@ -1,0 +1,1 @@
+add logic from domainUrl.ts here

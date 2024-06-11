@@ -1,0 +1,1 @@
+move Paths.tsx from paths/Paths.tsx here
