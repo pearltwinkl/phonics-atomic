@@ -1,0 +1,1 @@
+export { default as GeneralBadges } from './GeneralBadges';

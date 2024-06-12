@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { FadeInDiv, StyledAlert, IconWrapper } from './BasicAlert.styles';
-import { BasicAlertProps } from './BasicAlert.types';
+import { BasicAlertProps } from './BasicAlert.helpers';
 import { getIcon } from './BasicAlert.helpers';
 
 export default function BasicAlert({ severity, message }: BasicAlertProps) {

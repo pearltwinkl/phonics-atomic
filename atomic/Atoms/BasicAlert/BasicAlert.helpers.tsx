@@ -4,6 +4,11 @@ import ErrorIcon from '@mui/icons-material/Error';
 import WarningIcon from '@mui/icons-material/Warning';
 import InfoIcon from '@mui/icons-material/Info';
 
+export interface BasicAlertProps {
+    severity: "success" | "error" | "warning" | "info";
+    message: string;
+}
+
 export const getIcon = (severity: string) => {
 	switch (severity) {
 		case 'success':
