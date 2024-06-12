@@ -1,0 +1,1 @@
+Add consts/images contents here (random images + mnemonic images)
